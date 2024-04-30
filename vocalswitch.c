@@ -15,5 +15,6 @@ printf("%c es una vocal\n",c);
 default:
 printf("%c no es una vocal\n");
 }
+printf("este es un mjs new");
     return 0;
 }
