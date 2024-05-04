@@ -1,25 +1,26 @@
 #include <stdio.h>
 #include <string.h>
+
 int main() {
     char ca[] = "root1234";
-    char c[10];
-    int con = 0;
+    char c[20];
+    int in = 0;
 
-    while (con < 3) {
+    while (in < 3) {
         printf("Introduce la contraseña: ");
         scanf("%s", c);
 
-        if (strcmp(con, ca) == 0) {
-            printf("Acceso permitido\n");
+        if (strcmp(c, ca) == 0) {
+            printf("Contraseña correcta eres un titán\n Acceso permitido\n");
             break;
         } else {
-            con++;
-            printf("Contraseña incorrectaaa, tonto");
+            in++;
+            printf("Contraseña incorrecta tonto\n Te quedan %d intentos.\n", 3 - in);
         }
     }
 
-    if (con == 3) {
-        printf("Has agotado todos los intentos. Acceso denegado.\n");
+    if (in == 3) {
+        printf("Has agotado todos los intentos tontisimo\n Acceso denegado bot\n");
     }
 
     return 0;
