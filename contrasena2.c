@@ -4,7 +4,7 @@
 int main() {
     char name[50];
     int nl;
-    char g[10];
+    char g[10],art [10];
     char c[] = "2n35";
     char ci[10];
     int in = 3,pre;
@@ -19,9 +19,9 @@ int main() {
 while (1)
 {
     printf("ingrese su artículo:");
-scanf("%i",pre);
+scanf("%c",art);
 printf("ingrese el precio de su artículo");
-}
+
 
 
     while (in > 0) {
