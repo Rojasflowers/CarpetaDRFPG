@@ -5,7 +5,7 @@ int main() {
     char name[50];
     int nl;
     char g[10];
-    char c[] = "2BMPG";
+    char c[] = "2n35";
     char ci[10];
     int in = 3;
 
